@@ -1,0 +1,39 @@
+.main-comment{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    img{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        margin-left: 5px;
+        border-radius: 20px;
+        padding: 1px;
+        flex:1;
+        input{
+            flex: 1;
+            font-size: 15px;
+            margin-left: 10px;
+        }
+        ul{
+            display: flex;
+            li{
+                padding: 6px;
+                border-radius: 50%;
+                &:hover{
+                    background-color: var(--background-hover-strong);
+                }
+                img{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: none;
+                }
+            }
+        }
+        background-color: var(--background-hover);
+    }
+}

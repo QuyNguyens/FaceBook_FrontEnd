@@ -1,0 +1,45 @@
+.wrapper{
+    background-color: white;
+    padding: 10px;
+    position: fixed;
+    overflow-y: scroll;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    z-index: 999;
+}
+.small{
+    top: 55px;
+    width: 290.5px;
+    padding: 10px;
+    overflow-y: hidden;
+}
+.normal{
+    top: 55px;
+    width: 320px;
+    height: 88% ;
+    padding: 0 10px 10px 15px;
+}
+.large{
+    top: 55px;
+    width: 580px;
+    height: 550px;
+    padding: 0 18px;
+}
+.left{
+    left: 0;
+}
+.right{
+    right: 25px;
+}
+.noscroll{
+    width: 320px;
+    padding: 15px;
+}
+.newmsg{
+    padding: 0;
+    width: 328px;
+    height: 425px;
+    bottom:0 ;
+    right:90px;
+    overflow-y: hidden;
+}

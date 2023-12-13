@@ -1,0 +1,60 @@
+.sidebar-right{
+    width: 340px;
+    position: sticky;
+    top: 60px;
+    right: 0;
+    overflow-y: scroll;
+    max-height: 90vh;
+    padding: 10px;
+    z-index: 1;
+}
+.title-header{
+    font-weight: 400;
+    color: var(--word-color-sub);
+    margin: 12px 0;
+    font-size: 17px;
+}
+.border-bottom{
+    height: 3px;
+    margin: 10px 0;
+    background-color: var(--background-hover-strong);
+    width: 96%;
+    margin-left: 10px;
+}
+.birthday{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    &:hover{
+        background-color: var(--background-hover-strong);
+    }
+    img{
+        width: 28px;
+        height: 28px;
+    }
+    p{
+        margin-left: 10px;
+        b{
+            font-weight: 500;
+        }
+    }
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div{
+        display: flex;
+        img{
+            width: 17px;
+            height: 17px;
+            padding: 8px;
+            border-radius: 50%;
+            margin: 0 5px;
+            &:hover{
+                background-color: var(--background-hover-strong);
+            }
+        }
+    }
+}

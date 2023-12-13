@@ -1,0 +1,87 @@
+.wrapper{
+    padding:10px;
+}
+.marginbw{
+    height: 2px;
+    background-color: var(--background-hover-strong);
+    margin: 5px 0;
+}
+.all-comment{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--word-mild-color);
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.is-all-comment{
+    background-color: rgba(79, 77, 77, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    .box-all-comment{
+        position: relative;
+        top:0;
+        left: 0;
+        width: 700px;
+        height: 690px;
+        background-color: white;
+        z-index: 5;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        .box-all-comment-header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            font-weight: 700;
+            font-size: 19px;
+            border-bottom: 2px solid var(--background-hover-strong);
+            img{
+                width: 20px;
+                height: 20px;
+                padding: 7px;
+                border-radius: 50%;
+                background-color: var(--background-hover);
+                &:hover{
+                    background-color: var(--background-hover-strong);
+                }
+            }
+        }
+        .box-all-comment-content{
+            padding: 10px;
+            overflow-y: scroll;
+            height: 500px;
+        }
+        .box-all-comment-footer{
+            border-top: 2px solid var(--background-hover-strong);
+            display: flex;
+            align-items: center;
+            height: 80px;
+            padding: 10px;
+        }
+    }
+}
+.content-image{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(67, 65, 70);
+    margin-top: 10px;
+    width: 100%;
+    img{
+        width: 80%;
+    }
+}
+.comment-all{
+    padding: 10px;
+}
+.comment-tail{
+    font-size: 12px;
+    font-weight: 400;
+}

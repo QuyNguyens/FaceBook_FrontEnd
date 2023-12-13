@@ -1,0 +1,42 @@
+.wrapperhid{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    border-radius: 10px;
+    &:hover{
+        background-color: var(--background-hover-strong);
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+    .title{
+        flex:1;
+        margin-left: 15px;
+        line-height: 1.5;
+        span{
+            font-weight: 500;
+            font-size: 17px;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    button{
+        padding: 8px 12px; 
+        font-weight: 500;
+        font-size: 17px;
+        border: none;
+        border-radius: 10px;
+        &:hover{
+            background-color: var(--background-hover-strong);
+        }
+    }
+}
+.nonehover{
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--background-hover-strong);
+    &:hover{
+        background-color: white;
+    }
+}

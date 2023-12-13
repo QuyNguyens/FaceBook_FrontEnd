@@ -1,0 +1,20 @@
+.amount-comment{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    .amount-comment-left{
+        display: flex;
+        img{
+            width: 18px;
+            height: 18px;
+        }
+    }
+    span{
+        font-size: 14px;
+        margin: 0 7px;
+        color: var(--word-color-sub);
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}

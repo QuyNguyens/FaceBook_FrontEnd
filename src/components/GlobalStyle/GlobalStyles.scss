@@ -1,0 +1,41 @@
+@import 'normalize.css';
+:root{
+    --primary-color: #0866FF;
+    --primary-color-sub:#e3f4fa;
+    --primary-color-sub-hover:#d7ebf4;
+    --background-button: #F0F2F5;
+    --close-color: #b3adad;
+    --background-hover: #eff3f6;
+    --background-hover-strong: hsl(206, 15%, 91%);
+    --word-sub-color: #65676B;
+    --background-color-body:rgba(243, 247, 246, 0.861);
+    --word-mild-color:#747577;
+    --background-color-pr:#e9ecee;
+    --background-color-pr-mild:#dddfe1;
+
+}
+html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background-color-body);
+    position: relative;
+    z-index: -5;
+}
+input{
+    border: none;
+    outline: none;
+    background: transparent;
+}
+img{
+    object-fit: cover;
+    object-position: center;
+}
+ul,li{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p,ul,span{
+    margin: 0;
+}

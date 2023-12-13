@@ -1,0 +1,21 @@
+.wrapper{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 3;
+    &:hover{
+        background-color: var(--background-hover-strong);
+    }
+    img{
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.wrapper{
+    h4{
+        margin: 15px 0;
+    }
+    padding-bottom: 20px    ;
+    border-bottom: 1px solid var(--background-hover-strong);
+}
+.wrapper-icon{
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    padding: 7px;
+    &:hover{
+        background-color: var(--background-hover);
+    }
+    img{
+        width: 36px;
+        height: 36px;
+        margin-top: -10px;
+    }
+}
+.wrapper-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.4;
+    margin-left: 10px;
+    span{
+        font-weight: 500;
+    }
+    .wrapper-left-lastspan{
+        font-weight: 400;
+        font-size: 13px;
+    }
+}
